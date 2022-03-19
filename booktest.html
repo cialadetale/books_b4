@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html class="h-100">
+	<head>
+		<title>Moje książki</title>
+		<meta charset="UTF-8">
+		
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+		<link rel="stylesheet" href="style1.css">
+	</head>
+
+	<body class="d-flex flex-column h-100">
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark p-3">
+			<div class="container">
+				<a class="navbar-brand" href="index.html">Dobre książki</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<form class="d-flex me-auto mt-3 mt-lg-0">
+					<input class="form-control me-2" type="search" placeholder="Np. tytuł książki lub autor" aria-label="Szukaj">
+					<button class="btn btn-outline-success" type="submit">Szukaj</button>
+					</form>
+					<a href="user.html" class="nav-link">Mój profil</a>
+					<a href="login.html" class="nav-link">Zaloguj</a>
+				</div>
+			</div>
+		</nav>
+
+		<main>
+		<section class="bg-dark text-light">
+			<div class="container">
+				<div class="row d-flex justify-content-center text-center">
+					<img class="profile-pic rounded-circle p-0 my-2" src="/home/girls/ProPatki/books_b4/books.jpg" alt="Profile picture" >
+					<h2>IMIĘ NAZWISKO</h2>
+					<p>Konto aktywne od 02.10.2021r.</p>
+					
+					<ul class="nav nav-tabs" id="myTab" role="tablist">
+  					<li class="nav-item" role="presentation">
+    					<button class="nav-link active" id="rec-tab" data-bs-toggle="tab" data-bs-target="#rec" type="button" role="tab" aria-controls="rec" aria-selected="true">Recenzje</button>
+  					</li>
+  					<li class="nav-item" role="presentation">
+    					<button class="nav-link" id="polecone-tab" data-bs-toggle="tab" data-bs-target="#polecone" type="button" role="tab" aria-controls="polecone" aria-selected="false">Polecone</button>
+ 					 	</li>
+  					<li class="nav-item" role="presentation">
+    					<button class="nav-link" id="fav-tab" data-bs-toggle="tab" data-bs-target="#fav" type="button" role="tab" aria-controls="fav" aria-selected="false">Ulubione</button>
+  					</li>
+						<li class="nav-item" role="presentation">
+    					<button class="nav-link" id="blacklist-tab" data-bs-toggle="tab" data-bs-target="#blacklist" type="button" role="tab" aria-controls="blacklist" aria-selected="false">Czarna lista</button>
+  					</li>
+					</ul>
+				<div class="tab-content" id="myTabContent">
+  				<div class="tab-pane fade show active" id="rec" role="tabpanel" aria-labelledby="rec-tab">...</div>
+  				<div class="tab-pane fade" id="polecone" role="tabpanel" aria-labelledby="polecone-tab">...</div>
+  				<div class="tab-pane fade" id="fav" role="tabpanel" aria-labelledby="fav-tab">...</div>
+  				<div class="tab-pane fade" id="blacklist" role="tabpanel" aria-labelledby="blacklist-tab">...</div>
+				</div>
+					
+				</div>
+			</div>
+		</section>
+		</main>
+
+		<footer class="footer bg-dark text-center text-light p-3 mt-auto">All rights reserved &copy; 2022</footer>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+	</body>
+</html>
